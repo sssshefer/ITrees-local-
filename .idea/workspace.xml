@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6dbe332-d55e-4755-ac4d-6e1f2c145a86" name="Default Changelist" comment="" />
+    <list default="true" id="c6dbe332-d55e-4755-ac4d-6e1f2c145a86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/page.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +20,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1he16lnS0QIlIabU2IzDrpc8sPy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
@@ -38,6 +51,7 @@
       <workItem from="1600434785184" duration="6042000" />
       <workItem from="1600725481109" duration="291000" />
       <workItem from="1600802987298" duration="1979000" />
+      <workItem from="1601135027583" duration="10453000" />
     </task>
     <servers />
   </component>
@@ -49,19 +63,21 @@
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2718" y="480" key="#WordPress/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600363641422" />
-    <state x="2660" y="310" key="FileChooserDialogImpl" timestamp="1600725770636">
-      <screen x="1920" y="30" width="1920" height="1050" />
+    <state x="592" y="252" key="FileChooserDialogImpl" timestamp="1601143082514">
+      <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="2660" y="310" key="FileChooserDialogImpl/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600725770636" />
+    <state x="592" y="252" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1601143082514" />
     <state x="2381" y="197" key="SettingsEditor" timestamp="1600803182641">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2381" y="197" key="SettingsEditor/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600803182641" />
-    <state x="509" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1600725501400">
+    <state x="509" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1601135027597">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@0.30.1536.834" timestamp="1600725501400" />
     <state x="2556" y="379" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600434785808" />
+    <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1601135027597" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\trees</wordpressPath>

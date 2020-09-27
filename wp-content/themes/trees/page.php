@@ -48,12 +48,12 @@ get_template_part( 'template-parts/preloader' ); ?>
             <div class="row">
                 <div class="col-lg-3">
                     <h3 class="options__language">
-                        <?php the_field( 'language' ); ?>:
-	                        <?php pll_the_languages( [
-		                        'show_flags' => 1,
-		                        'show_names' => 0,
-		                        'hide_current'=>0,
-	                        ] ) ?>
+						<?php the_field( 'language' ); ?>:
+						<?php pll_the_languages( [
+							'show_flags'   => 1,
+							'show_names'   => 0,
+							'hide_current' => 0,
+						] ) ?>
                     </h3>
                 </div>
                 <!-- Первый вариант с черточками в лого (— sssshefer —) -->
@@ -109,7 +109,7 @@ get_template_part( 'template-parts/preloader' ); ?>
 								'depth'           => 0,
 								'walker'          => '',
 							] );
-							?>+
+							?>
                         </li>
                         <li class="ml-auto">
 							<?php wp_nav_menu( [
@@ -147,59 +147,32 @@ get_template_part( 'template-parts/preloader' ); ?>
     <div class="container-fluid ">
         <div class="row no-gutters">
             <div class="col d-flex justify-content-center">
-                <div class="branches-list-wrapper text-center d-flex justify-content-center align-items-center">
+                <div id='branches-list-wrapper'
+                     class="branches-list-wrapper text-center text-uppercase d-flex justify-content-center align-items-center">
                     <div class="branches__title-wrap">
                         <h1 class="branches__title">
                             IT
                         </h1>
                     </div>
-                    <ul class="branches-list">
-                        <li class="branches-list__item1">
-                            <a href="#">
-                                WEB
-                            </a>
-                        </li>
-                        <li class="branches-list__item2">
-                            <a href="#">
-                                Mobile
-                            </a>
-                        </li>
-                        <li class="branches-list__item3">
-                            <a href="#">
-                                Algorithm
-                            </a>
-                        </li>
-                        <li class="branches-list__item4">
-                            <a href="#">
-                                Administration
-                            </a>
-                        </li>
-                        <li class="branches-list__item5">
-                            <a href="#">
-                                Robotics
-                            </a>
-                        </li>
-                        <li class="branches-list__item6">
-                            <a href="#">
-                                Data scientist
-                            </a>
-                        </li>
-                        <li class="branches-list__item7">
-                            <a href="#">
-                                Neural network
-                            </a>
-                        </li>
-                        <li class="branches-list__item8">
-                            <a href="#">
-                                IT Security
-                            </a>
-                        </li>
-                        <li class="branches-list__item9">
-                            <a href="#">
-                                Cloud computing
-                            </a>
-                        </li>
-                    </ul>
+	                <?php wp_nav_menu( [
+		                'theme_location'  => '',
+		                'menu'            => 'Branches',
+		                'container'       => '',
+		                'container_class' => '',
+		                'container_id'    => '',
+		                'menu_class'      => 'branches-list ',
+		                'menu_id'         => '',
+		                'echo'            => true,
+		                'fallback_cb'     => 'wp_page_menu',
+		                'before'          => '',
+		                'after'           => '',
+		                'link_before'     => '',
+		                'link_after'      => '',
+		                'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		                'depth'           => 0,
+		                'walker'          => '',
+	                ] );
+	                ?>
                 </div>
             </div>
         </div>

@@ -192,84 +192,9 @@ svg {
     position: relative;
 }
 
-.branches-list li {
+.branches-list-wrapper ul li {
     transform-origin: 100% 100%;
 }
-
-.branches-list__item1 {
-    transform: rotate(10deg) skew(50deg);
-}
-
-.branches-list__item1 a {
-    transform: skew(-50deg) rotate(-10deg);
-
-}
-
-.branches-list__item2 {
-    transform: rotate(50deg) skew(50deg);
-}
-
-.branches-list__item2 a {
-    transform: skew(-50deg) rotate(-50deg);
-}
-
-.branches-list__item3 {
-    transform: rotate(90deg) skew(50deg);
-}
-
-.branches-list__item3 a {
-    transform: skew(-50deg) rotate(-90deg);
-}
-
-.branches-list__item4 {
-    transform: rotate(130deg) skew(50deg);
-}
-
-.branches-list__item4 a {
-    transform: skew(-50deg) rotate(-130deg);
-}
-
-.branches-list__item5 {
-    transform: rotate(170deg) skew(50deg);
-}
-
-.branches-list__item5 a {
-    transform: skew(-50deg) rotate(-170deg);
-}
-
-.branches-list__item6 {
-    transform: rotate(210deg) skew(50deg);
-}
-
-.branches-list__item6 a {
-    transform: skew(-50deg) rotate(-210deg);
-}
-
-.branches-list__item7 {
-    transform: rotate(250deg) skew(50deg);
-}
-
-.branches-list__item7 a {
-    transform: skew(-50deg) rotate(-250deg);
-}
-
-.branches-list__item8 {
-    transform: rotate(290deg) skew(50deg);
-}
-
-.branches-list__item8 a {
-    transform: skew(-50deg) rotate(-290deg);
-}
-
-.branches-list__item9 {
-    transform: rotate(330deg) skew(50deg);
-    transform-origin: 100% 100%;
-}
-
-.branches-list__item9 a {
-    transform: skew(-50deg) rotate(-330deg);
-}
-
 
 .branches-list li {
     font-size: 50px;
