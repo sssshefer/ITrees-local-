@@ -8,17 +8,6 @@
     <!-- Favicon -->
     <link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/favicon/logo3.png" type="image/x-icon">
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon/logo3.png" type="image/x-icon">
-    <!-- SEO -->
-    <meta name="keyword" content="ключевые, слова, через, запятую">
-    <meta name="description" content="Описание сайта">
-    <!-- Open Graph Tags -->
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="ITrees">
-    <meta property="og:description" content="Описание сайта для Open Graph">
-    <meta property="og:url" content="URL">
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/img/favicon/logo1.png">
-    <meta property="og:site_name" content="ITrees">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/styles/fonts/Font_Awesome/fontawesome-all.min.css">
     <!-- Bootstrap-reboot CSS -->
@@ -106,8 +95,9 @@
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col">
                     <ul class="menu d-flex">
-                        <li><?php wp_nav_menu( [
-								'theme_location'  => '',
+                        <li>
+                            <?php wp_nav_menu( [
+								'theme_location'  => 'primary',
 								'menu'            => 'Left_navigation',
 								'container'       => '',
 								'container_class' => '',
@@ -128,7 +118,7 @@
                         </li>
                         <li class="ml-auto">
 							<?php wp_nav_menu( [
-								'theme_location'  => '',
+								'theme_location'  => 'primary',
 								'menu'            => 'Right_navigation',
 								'container'       => '',
 								'container_class' => '',

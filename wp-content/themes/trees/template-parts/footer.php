@@ -15,6 +15,11 @@
                 </h3>
                 <ul class="footer__contact d-flex align-items-center">
                     <li>
+                        <a href="mailto:arkadiy.shefer@gmail.com">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://vk.com/sssshefer">
                             <i class="fab fa-vk"></i>
                         </a>

@@ -159,7 +159,13 @@ section {
  nav ul li.current-menu-item a::before{
      width: 100%;
      left: 0;
-     background: #292929;
+     background: #9b683e;
+ }
+ nav ul li.current-menu-item a{
+     color: #9b6740;
+ }
+nav ul li.current-menu-item a:hover::before{
+    background-color: #9b683e;
  }
 svg {
     transform: rotate(-90deg);
