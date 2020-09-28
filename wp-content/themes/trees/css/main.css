@@ -101,7 +101,8 @@ section {
 .options__logo spam {
     letter-spacing: 0.06em;
 }
-.options__language li{
+
+.options__language li {
     display: inline-block;
 }
 
@@ -155,6 +156,11 @@ section {
     background: #292929;
 }
 
+ nav ul li.current-menu-item a::before{
+     width: 100%;
+     left: 0;
+     background: #292929;
+ }
 svg {
     transform: rotate(-90deg);
     color: #333;
@@ -175,54 +181,81 @@ svg {
     padding-top: 600px;
 }
 
-.branches__title-wrap {
-    margin-top: 40px;
-}
-
 .branches__title {
-    font-size: 180px;
+    font-size: 8rem;
     color: #292929;
 }
 
 .branches-list-wrapper {
-    width: 600px;
-    height: 600px;
+    width: 110vh;
+    height: 100vh;
     border-radius: 50%;
-    /*border: 2px solid #292929;*/
     position: relative;
 }
 
-.branches-list-wrapper ul li {
-    transform-origin: 100% 100%;
-}
-
 .branches-list li {
-    font-size: 50px;
-    color: #292929;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     background-color: transparent;
-    top: 0;
-    left: 0;
+    top: 30%;
+    left: 37%;
     z-index: 2;
+    transform-origin: 100% 100%;
 }
 
 
 .branches-list li a {
     position: absolute;
-    font-size: 70px;
+    font-size: 2.5rem;
     text-align: center;
     color: #292929;
-    top: 0;
-    right: 0;
+    top: -22px;
+    right: 80%;
 }
 
+/* ------- branches End ------- */
 
-/* ------- Another Start ------- */
+/* ------- Footer Start ------- */
 
-.another {
-    height: 900px;
+footer {
+    background-color: #1d1d1d;
 }
+
+.footer .options__logo {
+    margin-top: 20px;
+    background-color: transparent;
+    margin-right: 25px;
+}
+
+.footer__contact-title {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Arial,sans-serif;
+    margin-right: 30px;
+    padding-top: 7px;
+}
+
+.footer__contact li a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #2b2f32;
+    margin: 20px 4px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.footer__contact li a:hover {
+    background-color: #000;
+}
+
+/* ------- Footer End ------- */
+
+
 
 
