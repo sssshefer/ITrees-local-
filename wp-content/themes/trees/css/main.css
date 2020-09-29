@@ -80,9 +80,13 @@ section {
     line-height: 72px;
 }
 
+.options__registration a:hover {
+    color: #a9763e;
+}
+
 
 .options__logo {
-    font-family: 'Microsoft Himalaya',Arial, sans-serif;
+    font-family: 'Microsoft Himalaya', Arial, sans-serif;
     position: relative;
     color: #a9763e;
     font-size: 5rem;
@@ -105,7 +109,11 @@ section {
 
 .options__language li {
     display: inline-block;
-    margin:0 4px;
+    margin: 0 4px;
+}
+
+.options__language i {
+    margin-right: 5px;
 }
 
 /* ------- navigation bar Start ------- */
@@ -131,7 +139,7 @@ section {
 
 .menu__part li a {
     color: #292929;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     z-index: 10;
     position: relative;
     line-height: 2.4rem;
@@ -159,17 +167,20 @@ section {
     background: #292929;
 }
 
- nav ul li.current-menu-item a::before{
-     width: 100%;
-     left: 0;
-     background: #9b683e;
- }
- nav ul li.current-menu-item a{
-     color: #9b6740;
- }
-nav ul li.current-menu-item a:hover::before{
+nav ul li.current-menu-item a::before {
+    width: 100%;
+    left: 0;
+    background: #9b683e;
+}
+
+nav ul li.current-menu-item a {
+    color: #9b6740;
+}
+
+nav ul li.current-menu-item a:hover::before {
     background-color: #9b683e;
- }
+}
+
 svg {
     transform: rotate(-90deg);
     color: #333;
@@ -219,7 +230,7 @@ svg {
     font-size: 2.5rem;
     text-align: center;
     color: #292929;
-    top: -22px;
+    top: -45px;
     right: 80%;
 }
 
@@ -240,7 +251,7 @@ footer {
 .footer__contact-title {
     color: #fff;
     font-size: 2rem;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     margin-right: 30px;
     padding-top: 7px;
 }

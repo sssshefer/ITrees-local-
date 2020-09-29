@@ -20,6 +20,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+
 <!-- Preloader start -->
 <div id="page-preloader">
     <div class="windows8">
@@ -40,7 +41,6 @@
         </div>
     </div>
 </div>
-
 <!-- Preloader End -->
 
 <!-- Header Start -->
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <h3 class="options__language">
-						<?php the_field( 'language' ); ?>:
+                        <i class="fas fa-globe"></i><?php the_field( 'language' ); ?>:
 						<?php pll_the_languages( [
 							'show_flags'   => 1,
 							'show_names'   => 0,
@@ -60,15 +60,13 @@
 						] ) ?>
                     </h3>
                 </div>
-                <!-- Первый вариант с черточками в лого (— sssshefer —) -->
-                <!-- <a class="options__logo" href="#">— <spam style="color:#d8a975">s</spam><spam style="color: #a9763e">s</spam><spam style="color:#552f07">s</spam><spam style="color: #a9763e">shefer </spam> —-->
                 <div class="col-lg-6 position-relative">
                     <object class="options__logo-img"
                             type="image/svg+xml"
                             data="<?php bloginfo( 'template_directory' ); ?>/img/SVG/blackSpot.svg">
                     </object>
                     <div class="options__logo-ling d-flex justify-content-center">
-                        <a class="options__logo" href="#">
+                        <a class="options__logo" href="<?php get_home_url() ?>">
                             <spam style="color:#d8a975">s</spam><spam style="color: #a9763e">s</spam><spam style="color:#63390e">s</spam><spam style="color: #a9763e">shefer</spam>
                         </a>
                     </div>
