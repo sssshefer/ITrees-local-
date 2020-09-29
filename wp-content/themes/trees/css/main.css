@@ -22,7 +22,7 @@ a {
     display: block;
     margin: 0;
     transition: .3s ease;
-    font-family: "Microsoft Himalaya", Arial, sans-serif;
+    font-family: "roboto", Arial, sans-serif;
 }
 
 a:hover {
@@ -30,7 +30,7 @@ a:hover {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    font-family: "Microsoft Himalaya", Arial, sans-serif;
+    font-family: "roboto", Arial, sans-serif;
 }
 
 
@@ -75,16 +75,17 @@ section {
 
 .options h3, .options h3 a {
     display: inline-block;
-    font-size: 36px;
+    font-size: 1.5rem;
     color: #292929;
     line-height: 72px;
 }
 
 
 .options__logo {
+    font-family: 'Microsoft Himalaya',Arial, sans-serif;
     position: relative;
     color: #a9763e;
-    font-size: 72px;
+    font-size: 5rem;
     margin-top: 30px;
     z-index: 10;
 }
@@ -104,6 +105,7 @@ section {
 
 .options__language li {
     display: inline-block;
+    margin:0 4px;
 }
 
 /* ------- navigation bar Start ------- */
@@ -129,14 +131,10 @@ section {
 
 .menu__part li a {
     color: #292929;
-    font-size:2.375rem;
+    font-size:1.5rem;
     z-index: 10;
     position: relative;
-}
-.russianFont li a{
-    font-family: "Roboto", arial, sans-serif;
-    font-size: 1.4rem ;
-    line-height:2.375rem;
+    line-height: 2.4rem;
 }
 
 .menu__part li a:hover {
@@ -262,7 +260,7 @@ footer {
 }
 
 .footer__contact li a:hover {
-    background-color: #000;
+    background-color: #a9763e;
 }
 
 /* ------- Footer End ------- */
