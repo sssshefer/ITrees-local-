@@ -1,5 +1,5 @@
 <!-- Footer start -->
-<footer class="footer">
+<footer class="footer" id ='footer'>
     <div class="container-fluid">
         <div class="row">
             <div class="col-3 text-center">

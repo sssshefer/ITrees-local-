@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6dbe332-d55e-4755-ac4d-6e1f2c145a86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/branches.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/branches.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/header.php" afterDir="false" />
     </list>
@@ -58,6 +55,9 @@
       <workItem from="1601288770160" duration="6524000" />
       <workItem from="1601316657990" duration="781000" />
       <workItem from="1601317546904" duration="5769000" />
+      <workItem from="1601383911326" duration="1576000" />
+      <workItem from="1601390378634" duration="1790000" />
+      <workItem from="1601394078249" duration="3932000" />
     </task>
     <servers />
   </component>
@@ -78,12 +78,16 @@
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2381" y="197" key="SettingsEditor/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600803182641" />
-    <state x="2556" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1601317547096">
+    <state x="2556" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1601394078400">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@0.30.1536.834" timestamp="1601288769474" />
-    <state x="2556" y="379" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1601317547096" />
+    <state x="2556" y="379" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1601394078400" />
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1601284336175" />
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601384347222">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1601384347222" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\trees</wordpressPath>

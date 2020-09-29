@@ -129,9 +129,14 @@ section {
 
 .menu__part li a {
     color: #292929;
-    font-size: 38px;
+    font-size:2.375rem;
     z-index: 10;
     position: relative;
+}
+.russianFont li a{
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 1.4rem ;
+    line-height:2.375rem;
 }
 
 .menu__part li a:hover {
@@ -261,7 +266,5 @@ footer {
 }
 
 /* ------- Footer End ------- */
-
-
 
 

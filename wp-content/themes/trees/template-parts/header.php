@@ -75,11 +75,11 @@
                 </div>
                 <div class="col-lg-3 text-right">
                     <h3 class="options__registration">
-                        <a href="<?php the_field( 'userlog' ); ?>">
+                        <a href="<?php the_field( 'userLogLink' ); ?>">
                             log in
                         </a>
                         /
-                        <a href="<?php the_field( 'userreg' ); ?>">
+                        <a href="<?php the_field( 'userRegLink' ); ?>">
                             sign up
                         </a>
                     </h3>
@@ -96,45 +96,90 @@
                 <div class="col">
                     <ul class="menu d-flex">
                         <li>
-                            <?php wp_nav_menu( [
-								'theme_location'  => 'primary',
-								'menu'            => 'Left_navigation',
-								'container'       => '',
-								'container_class' => '',
-								'container_id'    => '',
-								'menu_class'      => 'menu__part d-flex justify-content-end',
-								'menu_id'         => '',
-								'echo'            => true,
-								'fallback_cb'     => 'wp_page_menu',
-								'before'          => '',
-								'after'           => '',
-								'link_before'     => '',
-								'link_after'      => '',
-								'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-								'depth'           => 0,
-								'walker'          => '',
-							] );
+                            <?php
+                            if(get_language_attributes()=='lang="en-GB"'){
+	                            wp_nav_menu( [
+		                            'theme_location'  => 'primary',
+		                            'menu'            => 'English menu - left',
+		                            'container'       => '',
+		                            'container_class' => '',
+		                            'container_id'    => '',
+		                            'menu_class'      => 'menu__part d-flex justify-content-end',
+		                            'menu_id'         => '',
+		                            'echo'            => true,
+		                            'fallback_cb'     => 'wp_page_menu',
+		                            'before'          => '',
+		                            'after'           => '',
+		                            'link_before'     => '',
+		                            'link_after'      => '',
+		                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		                            'depth'           => 0,
+		                            'walker'          => '',
+	                            ] );
+                            }else{
+	                            wp_nav_menu( [
+		                            'theme_location'  => 'primary',
+		                            'menu'            => 'Русское меню - левое',
+		                            'container'       => '',
+		                            'container_class' => '',
+		                            'container_id'    => '',
+		                            'menu_class'      => 'menu__part russianFont big d-flex justify-content-end',
+		                            'menu_id'         => '',
+		                            'echo'            => true,
+		                            'fallback_cb'     => 'wp_page_menu',
+		                            'before'          => '',
+		                            'after'           => '',
+		                            'link_before'     => '',
+		                            'link_after'      => '',
+		                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		                            'depth'           => 0,
+		                            'walker'          => '',
+	                            ] );
+                            }
+
 							?>
                         </li>
                         <li class="ml-auto">
-							<?php wp_nav_menu( [
-								'theme_location'  => 'primary',
-								'menu'            => 'Right_navigation',
-								'container'       => '',
-								'container_class' => '',
-								'container_id'    => '',
-								'menu_class'      => 'menu__part d-flex justify-content-start',
-								'menu_id'         => '',
-								'echo'            => true,
-								'fallback_cb'     => 'wp_page_menu',
-								'before'          => '',
-								'after'           => '',
-								'link_before'     => '',
-								'link_after'      => '',
-								'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-								'depth'           => 0,
-								'walker'          => '',
-							] );
+							<?php
+                            if(get_language_attributes()=='lang="en-GB"'){
+                                wp_nav_menu( [
+		                            'theme_location'  => 'primary',
+		                            'menu'            => 'English menu - right',
+		                            'container'       => '',
+		                            'container_class' => '',
+		                            'container_id'    => '',
+		                            'menu_class'      => 'menu__part d-flex justify-content-start',
+		                            'menu_id'         => '',
+		                            'echo'            => true,
+		                            'fallback_cb'     => 'wp_page_menu',
+		                            'before'          => '',
+		                            'after'           => '',
+		                            'link_before'     => '',
+		                            'link_after'      => '',
+		                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		                            'depth'           => 0,
+		                            'walker'          => '',
+	                            ] );
+                            }else{
+	                            wp_nav_menu( [
+		                            'theme_location'  => 'primary',
+		                            'menu'            => 'Русское меню - правое',
+		                            'container'       => '',
+		                            'container_class' => '',
+		                            'container_id'    => '',
+		                            'menu_class'      => 'menu__part russianFont d-flex justify-content-start',
+		                            'menu_id'         => '',
+		                            'echo'            => true,
+		                            'fallback_cb'     => 'wp_page_menu',
+		                            'before'          => '',
+		                            'after'           => '',
+		                            'link_before'     => '',
+		                            'link_after'      => '',
+		                            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		                            'depth'           => 0,
+		                            'walker'          => '',
+	                            ] );
+                            }
 							?>
                         </li>
                     </ul>
