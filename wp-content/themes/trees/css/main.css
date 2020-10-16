@@ -1,11 +1,11 @@
-/* ----------------------- Specification ----------------------- */
+/* ----------------------- Specification Start ----------------------- */
 * {
     letter-spacing: 0.02em;
     line-height: normal;
 }
 
-body {
-    background-color: #000;
+section, header {
+    background-color: #e5e3dc;
 }
 
 ul, ol {
@@ -14,7 +14,7 @@ ul, ol {
     list-style: none;
 }
 
-li {
+li, button, i {
     display: block;
 }
 
@@ -57,13 +57,13 @@ section {
     opacity: 1;
 }
 
-/* ----------------------- INDEX ----------------------- */
-
-/* ------- Header Start ------- */
-
-.header {
-    background-color: #e5e3dc;
+.howToUse__icons {
+    transition: 0.3s ease-in-out;
 }
+
+/* ----------------------- Specification End ----------------------- */
+
+/* ------- header Start ------- */
 
 .options {
     z-index: 100;
@@ -188,55 +188,18 @@ svg {
     border-radius: 50%;
     width: 100%;
 }
-
+.cls-1 {
+    fill: none;
+    stroke: #646464;
+    stroke-width: 1px;
+    stroke-dasharray: 2,2;
+    stroke-linejoin: round;
+}
 /* ------- navigation bar End ------- */
 
-/* ------- Header End ------- */
+/* ------- header End ------- */
 
-/* ------- Branches Start ------- */
-
-.branches {
-    background-color: #e5e3dc;
-    height: 1800px; /* TEMPORARILY */
-    padding-top: 600px;
-}
-
-.branches__title {
-    font-size: 8rem;
-    color: #292929;
-}
-
-.branches-list-wrapper {
-    width: 110vh;
-    height: 100vh;
-    border-radius: 50%;
-    position: relative;
-}
-
-.branches-list li {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    background-color: transparent;
-    top: 30%;
-    left: 37%;
-    z-index: 2;
-    transform-origin: 100% 100%;
-}
-
-
-.branches-list li a {
-    position: absolute;
-    font-size: 2.5rem;
-    text-align: center;
-    color: #292929;
-    top: -45px;
-    right: 80%;
-}
-
-/* ------- branches End ------- */
-
-/* ------- Footer Start ------- */
+/* ------- footer Start ------- */
 
 footer {
     background-color: #1d1d1d;
@@ -274,6 +237,205 @@ footer {
     background-color: #a9763e;
 }
 
-/* ------- Footer End ------- */
+/* ------- footer End ------- */
+
+/* PAGE Trees */
+
+/* ------- trees Start ------- */
+
+.trees {
+    height: 1800px; /* TEMPORARILY */
+    padding-top: 600px;
+}
+
+.trees__title {
+    font-size: 8rem;
+    color: #292929;
+}
+
+.trees-list-wrapper {
+    width: 110vh;
+    height: 100vh;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.trees-list {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+.trees-list li {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 50%;
+    z-index: 2;
+    transform-origin: 0 0;
+}
 
 
+.trees-list li a {
+    width: 350px;
+    position: absolute;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #292929;
+    bottom: 0;
+    left: 0;
+    transition: transform 0s;
+
+}
+
+/* ------- trees End ------- */
+
+/* PAGE HOME */
+
+/* ------- timeToStart Start ------- */
+
+.timeToStart {
+    height: 90vh;
+    padding: 90px 0 100px;
+    position: relative;
+}
+
+.timeToStart::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    content: '';
+    background-color: black;
+}
+
+.timeToStart__title {
+    font-size: 5rem;
+}
+
+.timeToStart__how {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.timeToStart__ball {
+    margin: 70px auto;
+    height: 60px;
+    width: 60px;
+    background-color: #1d1d1d;
+    border: 10px solid #a9763e;
+    border-radius: 50%;
+    padding-top: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.timeToStart__ball:hover {
+    color: #fff;
+}
+
+.timeToStart__ball:hover .timeToStart__arrow {
+    animation: arrowSway 0.29s ease-in infinite alternate;
+}
+
+@keyframes arrowSway {
+    to {
+        transform: translateY(2px);
+    }
+}
+
+.timeToStart__ball:visited {
+    color: #fff;
+}
+
+/* ------- timeToStart End ------- */
+
+/* ------- instruction Start ------- */
+
+.instruction {
+    height: 100vh;
+    background: #e5e3dc;
+}
+
+/* ------- instruction End ------- */
+
+/* PAGE ABOUT */
+
+/* ------- intro Start------- */
+
+.intro {
+    padding: 100px 0;
+    background: #e5e3dc url("../img/about/code-1839406_1920.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.intro__text {
+    color: #1d1d1d;
+    font-size: 2rem;
+    position: relative;
+}
+
+.intro__text-container {
+    background-color: rgba(199, 197, 190, 0.8);
+    padding: 100px 80px 100px 30px;
+}
+
+/* ------- intro End ------- */
+
+/* ------- howToUse  Start ------- */
+
+.howToUse {
+    padding: 40px 0 90px;
+}
+
+.howToUse__title {
+    margin-bottom: 8rem;
+    border-bottom: 2px solid #cecece;
+    line-height: 10rem;
+}
+
+.howToUse__icons {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.howToUse__tree-icon {
+     animation: jump 2.5s 0s ease-in-out infinite;
+ }
+
+.howToUse__hand-icon {
+    animation: jump 2.5s .5s ease-in-out infinite;
+}
+
+.howToUse__book-icon {
+    animation: jump 2.5s 1s ease-in-out infinite;
+}
+
+.howToUse__steps {
+    text-align: center;
+}
+
+@keyframes jump {
+    10% {
+        transform: translateY(-9px);
+    }
+    20% {
+        transform: translateY(0);
+    }
+}
+
+/* ------- howToUse  End ------- */
+
+/*
+TODO SVG animation on hover
+TODO SVG grey border
+
+
+ */

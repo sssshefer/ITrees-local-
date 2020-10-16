@@ -73,9 +73,9 @@
                             type="image/svg+xml"
                             data="<?php bloginfo( 'template_directory' ); ?>/img/SVG/blackSpot.svg">
                     </object>
-                    <div class="options__logo-ling d-flex justify-content-center">
+                    <div class="options__logo-link d-flex justify-content-center">
                         <a class="options__logo" href="<?php get_home_url() ?>">
-                            <spam style="color:#d8a975">s</spam><spam style="color: #a9763e">s</spam><spam style="color:#63390e">s</spam><spam style="color: #a9763e">shefer</spam>
+                            <spam style="color:#d8a975">I</spam><spam style="color: #a9763e">Trees</spam>
                         </a>
                     </div>
                 </div>

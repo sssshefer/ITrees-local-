@@ -1,5 +1,5 @@
-const anotherLi = document.querySelectorAll('.branches-list-wrapper ul li ');
-const anotherA = document.querySelectorAll('.branches-list-wrapper ul li a');
+const anotherLi = document.querySelectorAll('.trees-list-wrapper ul li ');
+const anotherA = document.querySelectorAll('.trees-list-wrapper ul li a');
 
 let anotherLiToArray = Array.from(anotherLi);
 
@@ -23,17 +23,3 @@ for (let i of anotherAToArray) {
     rotate %= 360;
     i.style.transform = `skew(-50deg) rotate(${-rotate}deg)`;
 }
-
-
-let lang = document.documentElement.lang;
-// if(lang === 'ru-RU') {
-//     const russianLinks = document.querySelectorAll('a');
-//     for (let i of russianLinks){
-//         i.classList.add('russianFont');
-//     }
-//     const russianText = document.querySelectorAll('p,h1,h2,h3,h4,h5,h6');
-//     for (let i of russianText){
-//         i.classList.add('russianFont');
-//     }
-//     console.log(1);
-// }

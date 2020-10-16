@@ -8,7 +8,39 @@ get_template_part( 'template-parts/header' );
 get_template_part( 'template-parts/preloader' ); ?>
 
 
+<section class="timeToStart" id="timeToStart">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="timeToStart__title text-center">
+                    Start investing in yourself
+                    <spam style="color:#a9763e">now</spam>!
+                </h1>
+            </div>
+            <div class="col-12">
+                <h2 class="timeToStart__how text-center">
+                    Choose a topic and start learning it!
+                </h2>
+            </div>
+            <div class="col-12">
+                <a href="#instruction" class="timeToStart__ball text-center">
+                    <i class="timeToStart__arrow">
+                        ↓
+                    </i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="instruction" id="instruction">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
 
+            </div>
+        </div>
+    </div>
+</section>
 <?php
 get_template_part( 'template-parts/footer' ); ?>
 
