@@ -7,24 +7,35 @@ Template Post Type: post, page, product
 get_template_part( 'template-parts/header' );
 get_template_part( 'template-parts/preloader' ); ?>
 
-<!-- Intro Start -->
-<section class="intro d-flex align-items-center" id="about">
-    <div class="container-fluid">
-        <div class="row">
-
-        </div>
-        <div class="row">
-            <div class="ml-auto col-4 d-flex align-items-center">
-                <div class="intro__text-container">
-                    <h3 class="intro__text">
-                        Наш сайт создан для людей, нацеленных самостоятельно изучать информационные технологии.
-                    </h3>
+<!-- intro Start -->
+<section class="intro" id="intro">
+    <div class="container-fluid no-padding">
+        <div class="row no-gutters">
+            <div class="col-lg-12">
+                <div class="intro__wrap">
+                    <h1 class="intro__title">About <spam><spam style="color:#d8a975">I</spam>Trees</spam></h1>
+                    <div class="intro__text-wrap">
+                        <h3 class="intro__text">
+                            Наш сайт создан для людей, нацеленных самостоятельно изучать информационные технологии
+                        </h3>
+                    </div>
+                    <a href="#whichUsers" class="intro__button">
+                        <i class="timeToStart__arrow">
+                            Подробнее
+                        </i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Trees End -->
+<!-- intro End -->
+
+<!-- whichUsers Start -->
+<section class="whichUsers" id="whichUsers">
+
+</section>
+<!-- whichUsers End -->
 
 <!-- howToUse Start -->
 <section class="howToUse">
@@ -39,7 +50,7 @@ get_template_part( 'template-parts/preloader' ); ?>
                 <div class="howToUse__cards">
                     <i class="fas howToUse__icons howToUse__tree-icon fa-code-branch"></i>
                     <h2 class="howToUse__steps">
-                        Зайдите в раздел деревья
+                        Зайдите в раздел <a class="howToUse__link" href="#trees">Деревья</a>
                     </h2>
                 </div>
             </div>
@@ -62,7 +73,19 @@ get_template_part( 'template-parts/preloader' ); ?>
         </div>
     </div>
 </section>
-<!-- howToUse Start -->
+<!-- howToUse End -->
+
+<!-- perspectives Start-->
+<section class="perspectives" id="perspectives">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- perspectives End -->
 
 <?php
 get_template_part( 'template-parts/footer' ); ?>

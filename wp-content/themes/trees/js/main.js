@@ -23,3 +23,30 @@ for (let i of anotherAToArray) {
     rotate %= 360;
     i.style.transform = `skew(-50deg) rotate(${-rotate}deg)`;
 }
+
+
+const logoLink = document.querySelector('.options__logo');
+const svgPath = document.querySelector('.cls-1');
+
+logoLink.addEventListener('mouseenter', () => {
+    logoLink.classList.add('transform-5');
+    svgPath.classList.add('transform-5');
+
+});
+
+logoLink.addEventListener('mouseleave', () => {
+    logoLink.classList.remove('transform-5');
+    svgPath.classList.remove('transform-5');
+});
+
+svgPath.addEventListener('mouseover', () => {
+    logoLink.classList.add('transform-5');
+    svgPath.classList.add('transform-5');
+});
+
+svgPath.addEventListener('mouseout', () => {
+    logoLink.classList.remove('transform-5');
+    svgPath.classList.remove('transform-5');
+});
+
+

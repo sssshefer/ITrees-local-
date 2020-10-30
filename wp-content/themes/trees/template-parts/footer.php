@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-3 text-center">
                 <div class="options__logo-ling">
-                    <a class="options__logo" href="<?php get_home_url() ?>">
+                    <a class="options__logo" href="<?php get_home_url() ?>"><!-- TODO home page with if php -->
                         <spam style="color:#d8a975">s</spam><spam style="color: #a9763e">s</spam><spam style="color:#63390e">s</spam><spam style="color: #a9763e">shefer</spam>
                     </a>
                 </div>

@@ -2,8 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicon -->
     <link rel="icon" href="<?php bloginfo( 'template_directory' ); ?>/img/favicon/logo3.png" type="image/x-icon">
@@ -23,7 +22,7 @@
 </head>
 <body>
 
-<!-- Preloader start -->
+<!-- preloader Start -->
 <div id="page-preloader">
     <div class="windows8">
         <div class="wBall" id="wBall_1">
@@ -43,12 +42,12 @@
         </div>
     </div>
 </div>
-<!-- Preloader End -->
+<!-- preloader End -->
 
-<!-- Header Start -->
+<!-- header Start -->
 <header class="header" id="header">
 
-    <!-- Options Start -->
+    <!-- options Start -->
     <div class="options ">
         <div class="container-fluid">
             <div class="row">
@@ -69,19 +68,41 @@
                     </h3>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <object class="options__logo-img"
-                            type="image/svg+xml"
-                            data="<?php bloginfo( 'template_directory' ); ?>/img/SVG/blackSpot.svg">
-                    </object>
+                    <svg class="options__logo-svg-wrap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.44 295.09">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill:#1d1d1b;
+                                    stroke: #cecece;
+                                    stroke-width: 2px;
+                                    stroke-linejoin: round;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Слой_2">
+                            <g id="Слой_1-2">
+                                <path class="cls-1" id="svg-path"
+                                      d="M404.43.16c.05,55.32-.05,109.85,0,165.17L202.22,285.09,0,165.33C.07,109.76,0,55.72,0,.15,134.77.7,269.68-.39,404.43.16Z"/>
+                            </g>
+                        </g>
+                    </svg>
                     <div class="options__logo-link d-flex justify-content-center">
-                        <a class="options__logo" href="<?php get_home_url() ?>">
-                            <spam style="color:#d8a975">I</spam><spam style="color: #a9763e">Trees</spam>
+                        <a class="options__logo" href="<?php if ( get_language_attributes() == 'lang="en-GB"' ) {
+	                        echo get_page_link('43');
+                        } else {
+	                        echo get_page_link('140');
+                        }?>"><!-- TODO change url to home page with if in php -->
+                            <spam style="color:#d8a975">I</spam><spam style="color:#a9763e">Trees</spam>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 text-right">
                     <h3 class="options__registration">
-                        <a href="<?php the_field( 'userLogLink' ); ?>">
+                        <a href="<?php if ( get_language_attributes() == 'lang="en-GB"' ) {
+	                        echo get_page_link(164);
+                        } else {
+	                        echo get_page_link(166);
+                        } ?>">
 							<?php
 							if ( get_language_attributes() == 'lang="en-GB"' ) {
 								echo 'Log in';
@@ -90,7 +111,11 @@
 							} ?>
                         </a>
                         /
-                        <a href="<?php the_field( 'userRegLink' ); ?>">
+                        <a href="<?php if ( get_language_attributes() == 'lang="en-GB"' ) {
+	                        echo get_page_link(160);
+                        } else {
+	                        echo get_page_link(162);
+                        } ?>">
 							<?php
 							if ( get_language_attributes() == 'lang="en-GB"' ) {
 								echo 'Sign up';
@@ -103,9 +128,9 @@
             </div>
         </div>
     </div>
-    <!-- Options End -->
+    <!-- options End -->
 
-    <!-- Navigation bar Start -->
+    <!-- navigation-bar Start -->
     <nav class="navigation-bar d-flex align-items-center">
         <div class="container-fluid">
             <div class="row d-flex align-items-center justify-content-center">
@@ -203,7 +228,7 @@
             </div>
         </div>
     </nav>
-    <!-- Navigation bar End -->
+    <!-- navigation-bar End -->
 
 </header>
 <!-- header End -->

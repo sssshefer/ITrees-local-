@@ -7,7 +7,7 @@ Template Post Type: post, page, product
 get_template_part( 'template-parts/header' );
 get_template_part( 'template-parts/preloader' ); ?>
 
-
+<!-- timeToStart Start -->
 <section class="timeToStart" id="timeToStart">
     <div class="container">
         <div class="row">
@@ -32,15 +32,7 @@ get_template_part( 'template-parts/preloader' ); ?>
         </div>
     </div>
 </section>
-<section class="instruction" id="instruction">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
 
-            </div>
-        </div>
-    </div>
-</section>
 <?php
 get_template_part( 'template-parts/footer' ); ?>
 

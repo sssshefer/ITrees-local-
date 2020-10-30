@@ -7,7 +7,7 @@ Template Post Type: post, page, product
 get_template_part( 'template-parts/header' );
 get_template_part( 'template-parts/preloader' ); ?>
 
-<!-- Trees Start -->
+<!-- trees Start -->
 <section class="trees" id="trees">
     <div class="container-fluid ">
         <div class="row no-gutters">
@@ -47,7 +47,7 @@ get_template_part( 'template-parts/preloader' ); ?>
         </div>
     </div>
 </section>
-<!-- Trees End -->
+<!-- trees End -->
 
 <?php
 get_template_part( 'template-parts/footer' ); ?>
