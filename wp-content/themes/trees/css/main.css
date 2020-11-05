@@ -331,9 +331,9 @@ footer {
     height: 60px;
     width: 60px;
     background-color: #1d1d1d;
-    border: 10px solid #b78044;
+    border: 8px solid #b78044;
     border-radius: 50%;
-    padding-top: 8px;
+    padding-top: 10px;
     color: #fff;
     font-size: 1.1rem;
 }
@@ -350,6 +350,12 @@ footer {
     to {
         transform: translateY(2px);
     }
+}
+
+.aboutContent {
+    height: 1000px;
+    width: 100%;
+    position: relative;
 }
 
 /* ------- timeToStart End ------- */
@@ -488,27 +494,50 @@ footer {
 /* ------- howToUse  End ------- */
 
 /*
-TODO SVG animation on hover
-TODO SVG grey border
 TODO footer stripe above footer
 TODO Smooth scroll
-
-
  */
 
 /* PAGE SOON */
 
 /* ------- soon Start------- */
 
-.soon{
+.soon {
     height: 80vh;
     background-color: #e4e4e4;
 }
 
 .soon__title {
-    font-size:5rem;
-    color:#1d1d1d;
+    font-size: 5rem;
+    color: #1d1d1d;
     margin-bottom: 5rem;
 }
 
 /* ------- soon End------- */
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    .options {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 993px) {
+.options__logo-svg-wrap{
+    max-width: 100px;
+
+}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 380px) {
+
+}

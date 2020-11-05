@@ -27,7 +27,6 @@ get_template_part( 'template-parts/preloader' ); ?>
 </section>
 <!-- soon End -->
 
-
 <?php
 get_template_part( 'template-parts/footer' ); ?>
 

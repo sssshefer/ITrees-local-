@@ -48,10 +48,10 @@
 <header class="header" id="header">
 
     <!-- options Start -->
-    <div class="options ">
+    <div class="options">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-3">
                     <h3 class="options__language">
                         <i class="fas fa-globe"></i>
 						<?php
@@ -67,7 +67,7 @@
 						] ) ?>
                     </h3>
                 </div>
-                <div class="col-lg-6 position-relative">
+                <div class="col-6 position-relative">
                     <svg class="options__logo-svg-wrap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.44 295.09">
                         <defs>
                             <style>
@@ -96,7 +96,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 text-right">
+                <div class="col-3 text-right">
                     <h3 class="options__registration">
                         <a href="<?php if ( get_language_attributes() == 'lang="en-GB"' ) {
 	                        echo get_page_link(164);

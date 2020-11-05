@@ -23,7 +23,7 @@ get_template_part( 'template-parts/preloader' ); ?>
                 </h2>
             </div>
             <div class="col-12">
-                <a href="#instruction" class="timeToStart__ball text-center">
+                <a href="#aboutContent" class="timeToStart__ball text-center">
                     <i class="timeToStart__arrow">
                         ↓
                     </i>
@@ -32,6 +32,22 @@ get_template_part( 'template-parts/preloader' ); ?>
         </div>
     </div>
 </section>
+<!-- timeToStart End -->
+
+
+<!-- aboutContent Start -->
+
+<section class="aboutContent" id="aboutContent">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- aboutContent End -->
 
 <?php
 get_template_part( 'template-parts/footer' ); ?>
