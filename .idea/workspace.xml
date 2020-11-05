@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/soon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/soon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +84,7 @@
       <workItem from="1604013707719" duration="4874000" />
       <workItem from="1604139906571" duration="1100000" />
       <workItem from="1604505451609" duration="11405000" />
+      <workItem from="1604558366107" duration="3189000" />
     </task>
     <servers />
   </component>
@@ -113,10 +111,10 @@
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@0.30.1536.834" timestamp="1601828715761" />
     <state x="2556" y="379" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1602858519999" />
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1604558449968" />
-    <state x="425" y="204" key="run.anything.popup" timestamp="1603048116649">
+    <state x="425" y="204" width="672" height="677" key="run.anything.popup" timestamp="1604560450063">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1603048116649" />
+    <state x="425" y="204" width="672" height="677" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1604560450063" />
     <state x="498" y="210" width="672" height="539" key="search.everywhere.popup" timestamp="1604507854645">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

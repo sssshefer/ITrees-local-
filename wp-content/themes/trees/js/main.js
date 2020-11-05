@@ -73,4 +73,13 @@ for (let i = 0; i < linkNav.length; i++) {
     }, false);
 }
 
+//home
 
+//make the last word brown color
+
+let homeTitleHtml = document.querySelector('h1');
+let homeTitleArray = homeTitleHtml.textContent.trim().split(' ');
+let homeTitleTheLastWord = homeTitleArray[homeTitleArray.length-1];
+homeTitleArray.pop();
+homeTitleHtml.innerHTML = homeTitleArray.join(' ') +' ' +
+    `<spam style="color:#a9763e">${homeTitleTheLastWord}</spam>`;

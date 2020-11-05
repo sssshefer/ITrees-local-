@@ -13,14 +13,13 @@ get_template_part( 'template-parts/preloader' ); ?>
         <div class="row">
             <div class="col-12">
                 <h1 class="timeToStart__title text-center">
-                    Start investing in yourself
-                    <spam style="color:#a9763e">now</spam>!
+<?php the_field('home__title'); ?>
+<!--                    <spam style="color:#a9763e">now</spam>!-->
                 </h1>
             </div>
             <div class="col-12">
                 <h2 class="timeToStart__how text-center">
-                    Choose a topic and start learning it!
-                </h2>
+<?php the_field('home__how'); ?>                </h2>
             </div>
             <div class="col-12">
                 <a href="#aboutContent" class="timeToStart__ball text-center">
