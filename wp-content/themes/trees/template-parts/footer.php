@@ -11,7 +11,12 @@
             </div>
             <div class="col-xl-4 col-lg-5 ml-auto d-flex justify-content-center align-items-center">
                 <h3 class="footer__contact-title">
-                    Connect
+	                <?php
+	                if ( get_language_attributes() == 'lang="en-GB"' ) {
+		                echo 'connect';
+	                } else {
+		                echo 'связь';
+	                } ?>
                 </h3>
                 <ul class="footer__contact d-flex align-items-center">
                     <li>

@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c6dbe332-d55e-4755-ac4d-6e1f2c145a86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/soon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/soon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/template-parts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/trees/trees.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/trees/trees.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1he16lnS0QIlIabU2IzDrpc8sPy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,18 +89,39 @@
       <workItem from="1604013707719" duration="4874000" />
       <workItem from="1604139906571" duration="1100000" />
       <workItem from="1604505451609" duration="11405000" />
-      <workItem from="1604558366107" duration="3189000" />
+      <workItem from="1604558366107" duration="3400000" />
+      <workItem from="1604664785939" duration="13736000" />
+      <workItem from="1604751156773" duration="7943000" />
+      <workItem from="1604778423834" duration="15463000" />
+      <workItem from="1605117536287" duration="651000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="2718" y="480" key="#WordPress" timestamp="1600363641422">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2718" y="480" key="#WordPress/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600363641422" />
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604664986909">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1604664986909" />
     <state x="2660" y="310" key="FileChooserDialogImpl" timestamp="1602524539947">
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
@@ -105,21 +131,29 @@
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2381" y="197" key="SettingsEditor/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1600803182641" />
-    <state x="509" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1604558449968">
+    <state x="509" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1605117537999">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@0.30.1536.834" timestamp="1601828715761" />
     <state x="2556" y="379" key="com.intellij.ide.util.TipDialog/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1602858519999" />
-    <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1604558449968" />
+    <state x="509" y="307" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1605117537999" />
+    <state x="577" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604819223605">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="577" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1604819223605" />
+    <state x="453" y="163" width="629" height="568" key="find.popup" timestamp="1604780485927">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="453" y="163" width="629" height="568" key="find.popup/0.30.1536.834@0.30.1536.834" timestamp="1604780485927" />
     <state x="425" y="204" width="672" height="677" key="run.anything.popup" timestamp="1604560450063">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="425" y="204" width="672" height="677" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1604560450063" />
-    <state x="498" y="210" width="672" height="539" key="search.everywhere.popup" timestamp="1604507854645">
+    <state x="498" y="210" width="672" height="539" key="search.everywhere.popup" timestamp="1604819687527">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1536.834/1920.30.1920.1050@1920.30.1920.1050" timestamp="1601384347222" />
-    <state x="498" y="210" width="672" height="539" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1604507854645" />
+    <state x="498" y="210" width="672" height="539" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1604819687527" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\xampp\htdocs\trees</wordpressPath>

@@ -11,19 +11,19 @@ get_template_part( 'template-parts/preloader' ); ?>
 <section class="trees" id="trees">
     <div class="container-fluid ">
         <div class="row no-gutters">
-            <div class="col d-flex justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
                 <div id='trees-list-wrapper'
                      class="trees-list-wrapper text-center text-uppercase
                      d-flex justify-content-center align-items-center">
                     <div class="trees__title-wrap d-flex">
                         <h1 class="trees__title">
-                            <?php
-                            if(get_the_ID()=='10'){
-                                echo 'IT';
-                            }else{
-	                            the_title_attribute();
-                            }
-                            ?>
+							<?php
+							if ( get_the_ID() == '10' ) {
+								echo 'IT';
+							} else {
+								the_title_attribute();
+							}
+							?>
                         </h1>
                     </div>
                     <ul class="trees-list">
@@ -34,14 +34,9 @@ get_template_part( 'template-parts/preloader' ); ?>
 							'echo'     => 0,
 							'depth'    => 1,
 						) );
-						if ( $args ) {
-							echo $args;
-						} else {
-							echo 'nooone';
-						}
+						echo $args;
 						?>
                     </ul>
-
                 </div>
             </div>
         </div>

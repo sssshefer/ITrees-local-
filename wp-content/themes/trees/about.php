@@ -32,48 +32,10 @@ get_template_part( 'template-parts/preloader' ); ?>
 <!-- intro End -->
 
 <!-- whichUsers Start -->
-<section class="whichUsers" id="whichUsers">
+<section class="clarification" id="clarification">
 
 </section>
 <!-- whichUsers End -->
-
-<!-- howToUse Start -->
-<section class="howToUse">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="howToUse__title text-center">
-                    Как пользоваться нашим сайтом?
-                </h1>
-            </div>
-            <div class="col-md-4">
-                <div class="howToUse__cards">
-                    <i class="fas howToUse__icons howToUse__tree-icon fa-code-branch"></i>
-                    <h2 class="howToUse__steps">
-                        Зайдите в раздел <a class="howToUse__link" href="#trees">Деревья</a>
-                    </h2>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="howToUse__cards">
-                    <i class="fas howToUse__icons howToUse__hand-icon fa-hand-pointer"></i>
-                    <h2 class="howToUse__steps">
-                        Выберите интересующие направления
-                    </h2>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="howToUse__cards">
-                    <i class="fab howToUse__icons howToUse__book-icon fa-leanpub"></i>
-                    <h2 class="howToUse__steps">
-                        Изучайте!
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- howToUse End -->
 
 <!-- perspectives Start-->
 <section class="perspectives" id="perspectives">

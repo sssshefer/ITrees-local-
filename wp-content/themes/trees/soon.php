@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Soon
+Template Name: Soonй
 Template Post Type: post, page, product
 */
 
